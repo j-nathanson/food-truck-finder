@@ -51,13 +51,15 @@ $jumbo-overlay: rgba(41, 45, 31, 0.5);
     max-width: 80%;
     min-height: 200px;
 
-
     a {
         color: $text-white;
-        background-color:rgba(84, 83, 83,.5);
+        background-color: rgba(84, 83, 83, .5);
         text-decoration: none;
     }
 
+    a:hover {
+        background-color: rgba(35, 35, 35, 0.5);
+    }
 }
 
 

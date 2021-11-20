@@ -56,6 +56,10 @@
   text-decoration: none;
 }
 
+#vendor-item-1 a:hover {
+  background-color: rgba(35, 35, 35, 0.5);
+}
+
 #vendor-item-2 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -78,6 +82,10 @@
   color: #fff;
   background-color: rgba(84, 83, 83, 0.5);
   text-decoration: none;
+}
+
+#vendor-item-2 a:hover {
+  background-color: rgba(35, 35, 35, 0.5);
 }
 
 #vendor-item-3 {
@@ -104,6 +112,10 @@
   text-decoration: none;
 }
 
+#vendor-item-3 a:hover {
+  background-color: rgba(35, 35, 35, 0.5);
+}
+
 #vendor-item-4 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -126,6 +138,10 @@
   color: #fff;
   background-color: rgba(84, 83, 83, 0.5);
   text-decoration: none;
+}
+
+#vendor-item-4 a:hover {
+  background-color: rgba(35, 35, 35, 0.5);
 }
 
 #vendor-item-5 {
@@ -152,6 +168,10 @@
   text-decoration: none;
 }
 
+#vendor-item-5 a:hover {
+  background-color: rgba(35, 35, 35, 0.5);
+}
+
 #vendor-item-6 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -174,5 +194,9 @@
   color: #fff;
   background-color: rgba(84, 83, 83, 0.5);
   text-decoration: none;
+}
+
+#vendor-item-6 a:hover {
+  background-color: rgba(35, 35, 35, 0.5);
 }
 /*# sourceMappingURL=style.css.map */
