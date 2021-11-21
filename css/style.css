@@ -2,6 +2,25 @@
   height: 100vh;
 }
 
+footer {
+  color: #fff;
+}
+
+footer h5 {
+  font-size: 1.5rem;
+}
+
+footer a {
+  color: #fff;
+  font-size: 1.25rem;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: lightcoral;
+  text-decoration: none;
+}
+
 .jumbotron {
   background-image: url("../img/momo-truck.jpeg");
   height: 100vh;
@@ -198,6 +217,10 @@
 
 #vendor-item-6 a:hover {
   background-color: rgba(35, 35, 35, 0.5);
+}
+
+.cater-intro img {
+  overflow: hidden;
 }
 
 .cater-intro .img-thumbnail {
