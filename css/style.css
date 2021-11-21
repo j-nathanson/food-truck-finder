@@ -199,4 +199,25 @@
 #vendor-item-6 a:hover {
   background-color: rgba(35, 35, 35, 0.5);
 }
+
+.cater-intro .img-thumbnail {
+  background: lightcoral;
+  border: 1px solid lightcoral;
+}
+
+.cater-intro h2 {
+  color: #48a2b9;
+}
+
+.cater-intro a {
+  background: lightcoral;
+  border: lightcoral;
+  color: #fff;
+}
+
+.cater-intro a:hover {
+  background: #e27979;
+  border: #e27979;
+  color: #fff;
+}
 /*# sourceMappingURL=style.css.map */
