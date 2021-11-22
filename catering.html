@@ -19,6 +19,12 @@
 </head>
 
 <body>
+    <!-- Form Modal -->
+    <div id="orderModal" class="modal fade" role="dialog">
+
+    </div>
+
+
     <!-- Nav -->
     <nav class="navbar navbar-expand-sm bg-info navbar-dark">
         <a class="navbar-brand " href="#">
@@ -44,6 +50,8 @@
             <div class="col-12">
                 <h1 class="text-center display-4 mt-3">Catering for all events!</h1>
             </div>
+
+            <!--Carousel  -->
             <div class="col-8 mx-auto">
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
@@ -78,6 +86,8 @@
                     </a>
                 </div>
             </div>
+            <!-- End Carousel -->
+
             <div class="row">
                 <div class="col">
                     <p class="lead text-center">Birthdays, Weddings, Bar Mitzvahs, Corporate events. we have the trucks
@@ -89,6 +99,7 @@
 
         </div>
 
+        <!-- Price Estimator -->
         <div class="row">
             <div class="col-12">
                 <h3 class="text-center">Price Estimator</h3>
@@ -110,18 +121,16 @@
                 </label>
             </div>
 
-
+            <!-- Form Button -->
             <div class="col-6 mx-auto mb-3 text-center">
                 <h4>Approximate Cost</h4>
                 <div class="text-info">
-                    <span id="costStart">500</span><span id="costEnd">750</span>
+                    <span id="costStart"></span><span id="costEnd"></span>
                 </div>
-                <a href="" class="btn btn-coral">Order here</a>
+                <a href="" class="btn btn-coral" id="orderButton">Get Started</a>
             </div>
         </div>
-
-
-
+        <!-- End Price Estimator -->
     </div>
 
     <!-- footer -->
