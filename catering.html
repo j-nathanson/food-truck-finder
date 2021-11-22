@@ -21,10 +21,92 @@
 <body>
     <!-- Form Modal -->
     <div id="orderModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+            <div class="modal-content">
+                <!-- Title -->
+                <div class="modal-header">
+                    <h3 class="modal-title">Book a Truck</h3>
+                    <span class="ml-auto">
+                        <img src="img/food-truck-svgrepo-com.svg" width="50" height="50"
+                            class="d-inline-block align-top" alt="">
+                    </span>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <!-- Modal Body -->
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <form action="">
+                            <div class="row">
+                                <div class="form-group col">
+                                    <label for="firstName">First Name</label>
+                                    <input type="text" class="form-control" id="firstName" placeholder="First Name">
 
+                                </div>
+                                <div class="form-group col">
+                                    <label for="lastName">Last Name</label>
+                                    <input type="text" class="form-control" id="lastName" placeholder="Last Name">
+
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col">
+                                    <label for="telephone">Telephone number</label>
+                                    <input type="tel" class="form-control" id="telephone" placeholder="349-299-0982">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col">
+                                    <label for="email">Email</label>
+                                    <input type="email" class="form-control" id="email" placeholder="Trucks@gmail.com">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col">
+                                    <label for="date">Date of Event</label>
+                                    <input type="date" class="form-control" id="date">
+
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col">
+                                    <label for="totalGuests">How Many Guests are You
+                                        Expecting?</label>
+                                    <input type="number" class="form-control" id="totalGuests" value="50" step="10">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col">
+                                    <label for="foodTrucks">Pick your Favorite Truck</label>
+                                    <select class="custom-select" id="foodTrucks">
+                                        <option selected>Choose...</option>
+                                        <option value="Big D's Grub">Big D's Grub</option>
+                                        <option value="Tacos El Poblanito">Tacos El Poblanito</option>
+                                        <option value="Stuf'd Truck">Stuf'd Truck</option>
+                                        <option value="Tacos El Bronco">Tacos El Bronco</option>
+                                        <option value="Poke Motion">Poke Motion</option>
+                                        <option value="Dirty Bird">Dirty Bird</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col">
+                                    <label for="textarea">Any additional information?</label>
+                                    <textarea name="textarea" id="textarea" class="form-control"
+                                        placeholder=""></textarea>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col">
+                                    <input type="submit" value="Submit" class="btn btn-primary" />
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-
-
+    </div>
     <!-- Nav -->
     <nav class="navbar navbar-expand-sm bg-info navbar-dark">
         <a class="navbar-brand " href="#">
@@ -90,7 +172,8 @@
 
             <div class="row">
                 <div class="col">
-                    <p class="lead text-center">Birthdays, Weddings, Bar Mitzvahs, Corporate events. we have the trucks
+                    <p class="lead text-center">Birthdays, Weddings, Bar Mitzvahs, Corporate events. we have the
+                        trucks
                         to
                         meet your
                         size, style, and budget.</p>
@@ -100,16 +183,18 @@
         </div>
 
         <!-- Price Estimator -->
-        <div class="row">
-            <div class="col-12">
+        <div class="row p-2">
+            <div class="col">
                 <h3 class="text-center">Price Estimator</h3>
             </div>
-            <div class="col-12 col-md-6 mx-auto >
+        </div>
+        <div class="row estimator">
+            <div class="col-12 col-md-6 mx-auto>
                 <label for=" estimator">Number of Guests: <span id="numGuests">50</span></label>
                 <input type="range" class="custom-range" id="estimator" min="50" max="500" step="10" value="50">
             </div>
 
-            <div class=" col-6 mx-auto btn-group btn-group-toggle align-self-center" data-toggle="buttons">
+            <div class="col-12 col-md-6 mx-auto btn-group btn-group-toggle align-self-center" data-toggle="buttons">
                 <label class="btn btn-outline-info">
                     <input type="checkbox" name="options" id="sides" autocomplete="off"> Sides
                 </label>
@@ -121,20 +206,22 @@
                 </label>
             </div>
 
-            <!-- Form Button -->
-            <div class="col-6 mx-auto mb-3 text-center">
+            <!--  Button Start Modal -->
+            <div class="col-12 col-md-6 text-center">
                 <h4>Approximate Cost</h4>
                 <div class="text-info">
                     <span id="costStart"></span><span id="costEnd"></span>
                 </div>
-                <a href="" class="btn btn-coral" id="orderButton">Get Started</a>
+            </div>
+            <div class="col-12 col-md-6 text-center d-flex align-items-center justify-content-center">
+                <a href="" class="btn btn-coral btn-lg" id="orderButton">Get Started</a>
             </div>
         </div>
         <!-- End Price Estimator -->
     </div>
 
     <!-- footer -->
-    <footer class="bg-info p-3">
+    <footer class="bg-info mt-3">
         <div class="container">
             <div class="row text-center">
                 <div class="col-6">

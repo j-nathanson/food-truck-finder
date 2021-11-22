@@ -195,6 +195,13 @@ footer {
 
 // }
 
+
+.estimator {
+    div {
+        margin: 1.25rem 0 1.25rem 0;
+    }
+}
+
 #numGuests,
 input[type="range"] {
     font-size: 1.5rem;
@@ -213,13 +220,13 @@ input[type="range"] {
     font-size: 2rem;
 }
 
-input::before {
+input[type="range"]::before {
     content: "50";
     margin-right: 10px;
 }
 
-input::after {
+// input type=range was causing bug in modal, shows 500 after date
+#estimator::after {
     content: "500";
     margin-left: 10px;
 }
-

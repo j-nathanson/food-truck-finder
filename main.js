@@ -90,7 +90,10 @@ function isCheckedDessert(event) {
 
 // Catering Form Modal 
 $(function () {
-    $("#orderButton").click(function () {
+    $("#orderButton").click(function (event) {
         $("#orderModal").modal('show');
+        event.preventDefault();
     })
 });
+
+
