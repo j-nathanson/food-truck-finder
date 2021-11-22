@@ -14,6 +14,18 @@ $jumbo-overlay: rgba(41, 45, 31, 0.5);
     height: 50vh;
 }
 
+.btn-coral {
+    background: $secondary-color;
+    border: $secondary-color;
+    color: $text-white;
+}
+
+.btn-coral:hover {
+    background: $secondary-color-hover;
+    border: $secondary-color-hover;
+    color: $text-white;
+}
+
 
 
 footer {

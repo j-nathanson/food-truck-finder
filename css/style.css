@@ -6,6 +6,18 @@
   height: 50vh;
 }
 
+.btn-coral {
+  background: lightcoral;
+  border: lightcoral;
+  color: #fff;
+}
+
+.btn-coral:hover {
+  background: #e27979;
+  border: #e27979;
+  color: #fff;
+}
+
 footer {
   color: #fff;
 }
