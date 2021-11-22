@@ -10,6 +10,12 @@ $jumbo-overlay: rgba(41, 45, 31, 0.5);
     height: 100vh;
 }
 
+.row-half {
+    height: 50vh;
+}
+
+
+
 footer {
     color: $text-white;
 
@@ -84,8 +90,7 @@ footer {
     }
 }
 
-
-
+// vendor-index
 #vendor-item-1 {
     @include vendor-item;
     background-image: url("https://d3hbe0kmbam4a5.cloudfront.net/photos/8fef1e0a-a5fc-4614-b0bb-c13a037c833f.jpg");
@@ -149,3 +154,58 @@ footer {
 }
 
 // end index.html
+
+// Catering.html
+.catering {
+    color: $base-color;
+}
+
+.carousel {
+    border: solid $secondary-color 5px;
+    background: $secondary-color;
+}
+
+.carousel-item {
+    img {
+        width: 100%;
+        height: 300px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .carousel-item {
+        img {
+            width: 564px;
+            height: 300px;
+        }
+    }
+
+}
+
+#numGuests,
+input[type="range"] {
+    font-size: 1.5rem;
+}
+
+#costStart::before {
+    content: "$";
+}
+
+#costStart::after {
+    content: "-";
+}
+
+#costStart,
+#costEnd {
+    font-size: 2rem;
+}
+
+input::before {
+    content: "50";
+    margin-right: 10px;
+}
+
+input::after {
+    content: "500";
+    margin-left: 10px;
+}

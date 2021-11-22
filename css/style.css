@@ -2,6 +2,10 @@
   height: 100vh;
 }
 
+.row-half {
+  height: 50vh;
+}
+
 footer {
   color: #fff;
 }
@@ -242,5 +246,54 @@ footer a:hover {
   background: #e27979;
   border: #e27979;
   color: #fff;
+}
+
+.catering {
+  color: #48a2b9;
+}
+
+.carousel {
+  border: solid lightcoral 5px;
+  background: lightcoral;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 300px;
+}
+
+@media screen and (min-width: 768px) {
+  .carousel-item img {
+    width: 564px;
+    height: 300px;
+  }
+}
+
+#numGuests,
+input[type="range"] {
+  font-size: 1.5rem;
+}
+
+#costStart::before {
+  content: "$";
+}
+
+#costStart::after {
+  content: "-";
+}
+
+#costStart,
+#costEnd {
+  font-size: 2rem;
+}
+
+input::before {
+  content: "50";
+  margin-right: 10px;
+}
+
+input::after {
+  content: "500";
+  margin-left: 10px;
 }
 /*# sourceMappingURL=style.css.map */
