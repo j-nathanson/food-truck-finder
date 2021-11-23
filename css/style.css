@@ -53,6 +53,12 @@ footer a:hover {
   padding: 1rem;
 }
 
+.overlay-2 {
+  background: rgba(136, 136, 136, 0.5);
+  border-radius: .75;
+  padding: 1rem;
+}
+
 .intro {
   background: lightcoral;
   color: #fff;
@@ -300,5 +306,10 @@ input[type="range"]::before {
 
 .test {
   height: 100vh;
+}
+
+iframe {
+  width: 100%;
+  height: auto;
 }
 /*# sourceMappingURL=style.css.map */
