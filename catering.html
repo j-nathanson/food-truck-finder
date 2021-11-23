@@ -128,9 +128,7 @@
     </nav>
 
     <div class="container d-flex flex-column justify-content-center">
-        <!-- <h1 class="text-info text-center display-4 my-4">Catering for all events!</h1> -->
-
-        <div class="row justify-content-center my-4">
+        <div class="row justify-content-center my-5">
             <div class="col-12 col-sm-10 col-md-8">
                 <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
                     <ol class="carousel-indicators">
@@ -175,33 +173,32 @@
                 </div>
             </div>
         </div>
-
-        <div class="row my-4">
-            <div class="col-10 mx-auto">
-                <p class="lead">Birthdays, weddings, gamedays, and coperate events. Our trucks love to bring your events
-                    alive! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur, adipisci.</p>
-            </div>
-        </div>
     </div>
 
 
     <!-- Price Estimator -->
     <div class="container">
-        <div class="row p-2 mt-5">
-            <div class="col mb-3">
-                <h2 class="text-info text-center">Price Estimator</h2>
+        <div class="row d-md-none">
+            <div class="col-10 mt-3 mx-auto">
+                <p class="lead">Birthdays, weddings, gamedays, and coperate events. Our trucks love to bring your events
+                    alive! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur, adipisci.</p>
+            </div>
+        </div>
+        <div class="row p-4 ">
+            <div class="col mb-3 text-center">
+                <h2 class="text-info text-center h-size">Price Estimator</h2>
             </div>
         </div>
 
         <div class="row ">
-            <div class="col-12 col-md-6 mx-auto>
+            <div class="col-12 col-md-6 mx-auto p-4>
                 <label for
         =" estimator">Number of Guests: <span id="numGuests">50</span></label>
-                <input type="range" class="custom-range" id="estimator" min="50" max="500" step="10" value="50">
+                <input type="range" class="custom-range mb-4" id="estimator" min="50" max="500" step="10" value="50">
             </div>
 
 
-            <div class="col-12 col-md-6 mx-auto my-4 btn-group btn-group-toggle align-self-center"
+            <div class="col-12 col-md-6 mx-auto p-4 my-4 btn-group btn-group-toggle align-self-center"
                 data-toggle="buttons">
                 <label class="btn btn-outline-info">
                     <input type="checkbox" name="options" id="sides" autocomplete="off"> Sides
@@ -215,13 +212,13 @@
             </div>
 
             <!--  Button Start Modal -->
-            <div class="col-12 col-md-6 text-center">
-                <h4>Approximate Cost</h4>
-                <div class="text-info">
-                    <span id="costStart"></span><span id="costEnd"></span>
-                </div>
+            <div class="col-12 text-center">
+                <h3 class="p-4 h-size">Approximate Cost</h2>
+                    <div class="text-info p-4">
+                        <span id="costStart"></span><span id="costEnd"></span>
+                    </div>
             </div>
-            <div class="col-12 col-md-6 mt-4 text-center d-flex align-items-center justify-content-center">
+            <div class="col-12  mt-4 text-center d-flex align-items-center justify-content-center">
                 <a href="" class="btn btn-coral btn-lg" id="orderButton">Get Started</a>
             </div>
         </div>

@@ -11,14 +11,19 @@ $jumbo-overlay-carousel: rgba(136, 136, 136, 0.5);
     height: 100vh;
 }
 
-.row-half {
-    height: 50vh;
+.h-size {
+    font-size: 2.5rem;
+}
+
+.text-coral{
+    color: $secondary-color;
 }
 
 .btn-coral {
     background: $secondary-color;
     border: $secondary-color;
     color: $text-white;
+    font-size: 2rem;
 }
 
 .btn-coral:hover {
@@ -65,6 +70,7 @@ footer {
     border-radius: .75;
     padding: 1rem;
 }
+
 .overlay-2 {
     background: $jumbo-overlay-carousel;
     border-radius: .75;
@@ -188,9 +194,16 @@ footer {
 }
 
 
+
+#numGuests {
+    color: $secondary-color;
+}
+
+
+
 #numGuests,
 input[type="range"] {
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 #costStart::before {
@@ -203,7 +216,7 @@ input[type="range"] {
 
 #costStart,
 #costEnd {
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 input[type="range"]::before {
@@ -217,12 +230,30 @@ input[type="range"]::before {
     margin-left: 10px;
 }
 
-.test {
-    height: 100vh;
+
+
+// vendor page
+iframe {
+    width: 100%;
+    height: 100%;
+    border: 4px solid $base-color;
 }
 
-// vendors
-iframe{
-    width: 100%;
-    height: auto;
+.card {
+    height: 100%;
+    margin-top: 2rem;
+    
+}
+.card-title{
+    color: $base-color;
+}
+.checked-star {
+    color: orange;
+}
+
+@media only screen and (min-width: 576px) {
+
+    .card-img-top {
+        height: 200px;
+    }
 }
