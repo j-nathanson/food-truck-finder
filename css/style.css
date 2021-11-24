@@ -31,6 +31,24 @@
   color: #fff;
 }
 
+.navbar {
+  padding: 1.5rem;
+}
+
+.navbar img {
+  height: 40px;
+  width: 40px;
+}
+
+.nav-link {
+  font-size: 1.25rem;
+}
+
+.navbar-brand {
+  font-size: 1.75rem;
+  margin-right: 0;
+}
+
 footer {
   color: #fff;
 }

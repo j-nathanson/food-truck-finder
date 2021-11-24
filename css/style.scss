@@ -15,15 +15,18 @@ $jumbo-overlay-carousel: rgba(136, 136, 136, 0.5);
     font-size: 2.5rem;
 }
 
-.bg-coral{
+.bg-coral {
     background-color: $secondary-color;
 }
-.text-coral{
+
+.text-coral {
     color: $secondary-color;
 }
-.btn-info{
+
+.btn-info {
     font-size: 2rem;
 }
+
 .btn-coral {
     background: $secondary-color;
     border: $secondary-color;
@@ -37,6 +40,23 @@ $jumbo-overlay-carousel: rgba(136, 136, 136, 0.5);
     color: $text-white;
 }
 
+.navbar {
+    padding: 1.5rem;
+
+    img {
+        height: 40px;
+        width: 40px;
+    }
+}
+
+.nav-link {
+    font-size: 1.25rem;
+}
+
+.navbar-brand {
+    font-size: 1.75rem;
+    margin-right: 0;
+}
 
 
 footer {
@@ -247,11 +267,13 @@ iframe {
 .card {
     height: 100%;
     margin-top: 2rem;
-    
+
 }
-.card-title{
+
+.card-title {
     color: $base-color;
 }
+
 .checked-star {
     color: orange;
 }
