@@ -15,10 +15,15 @@ $jumbo-overlay-carousel: rgba(136, 136, 136, 0.5);
     font-size: 2.5rem;
 }
 
+.bg-coral{
+    background-color: $secondary-color;
+}
 .text-coral{
     color: $secondary-color;
 }
-
+.btn-info{
+    font-size: 2rem;
+}
 .btn-coral {
     background: $secondary-color;
     border: $secondary-color;
